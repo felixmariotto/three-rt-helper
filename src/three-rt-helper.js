@@ -92,6 +92,6 @@ function RenderTargetHelper( renderer, renderTarget ) {
 
 }
 
-if ( global ) global.RenderTargetHelper = RenderTargetHelper;
+if ( window ) window.RenderTargetHelper = RenderTargetHelper;
 
 export default RenderTargetHelper
