@@ -12,7 +12,7 @@ module.exports = env => {
 
 		output: {
 			filename: '[name].js',
-			library: 'three-rt-helper',
+			library: 'RenderTargetHelper',
 			libraryTarget: 'umd'
 		}
 
