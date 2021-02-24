@@ -1,0 +1,29 @@
+{
+  "name": "three-rt-helper",
+  "version": "0.0.0",
+  "description": "see three.WebGLRenderTarget output in a window",
+  "module": "src/three-rt-helper.js",
+  "scripts": {
+    "build": "npx webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixmariotto/three-rt-helper.git"
+  },
+  "keywords": [
+    "three.js"
+  ],
+  "author": "felix mariotto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felixmariotto/three-rt-helper/issues"
+  },
+  "homepage": "https://github.com/felixmariotto/three-rt-helper#readme",
+  "dependencies": {
+    "webpack": "^5.24.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.5.0"
+  }
+}
