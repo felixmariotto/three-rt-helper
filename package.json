@@ -1,6 +1,6 @@
 {
   "name": "three-rt-helper",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "see three.WebGLRenderTarget output in a window",
   "module": "src/three-rt-helper.js",
   "scripts": {
