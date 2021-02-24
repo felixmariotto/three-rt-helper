@@ -1,5 +1,5 @@
 
-export default function RenderTargetHelper( renderer, renderTarget ) {
+function RenderTargetHelper( renderer, renderTarget ) {
 
 	const container = document.createElement('DIV');
 
@@ -91,3 +91,5 @@ export default function RenderTargetHelper( renderer, renderTarget ) {
 	return container
 
 }
+
+export default RenderTargetHelper
