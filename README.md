@@ -24,4 +24,7 @@ or
 ```js
 const renderTargetHelper = RenderTargetHelper( renderer, myWebGLRenderTarget );
 document.body.append( renderTargetHelper );
+
+// in the render loop
+renderTargetHelper.update();
 ```
