@@ -1,5 +1,5 @@
 # three-rt-helper
-WebGLRenderTarget helper for three.js : see the output in realtime in a window
+WebGLRenderTarget helper for three.js : see the output in realtime in a small canvas
 
 ### [NPM](https://www.npmjs.com/package/three-rt-helper)
 
